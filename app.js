@@ -1,15 +1,15 @@
-// Importa el módulo Express
+// Import the Express module:
 const express = require('express');
 
-// Crea una aplicación de Express
+// Create an Express application:
 const app = express();
 
-// Define una ruta
+// Define a route:
 app.get('/', (req, res) => {
   res.send('¡Hi, from Cybersecurity!');
 });
 
-// Escucha en el puerto 3000
+// Listen on port 3000:
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en el puerto ${PORT}`);
