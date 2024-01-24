@@ -1,0 +1,13 @@
+runtime: nodejs14  # Selecciona la versión de Node.js que necesitas
+
+# Configuración de la aplicación
+instance_class: F2  # Puedes ajustar la clase de instancia según tus necesidades
+
+# Definición de manejadores para las rutas
+handlers:
+- url: /.*  # Cualquier ruta
+  script: auto  # Usa la configuración predeterminada para Node.js
+
+# Configuración adicional si es necesario
+env_variables:
+  KEY: VALUE  # Puedes definir variables de entorno si las necesitas
