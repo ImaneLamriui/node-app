@@ -1,2 +1,2 @@
 # node-app
-## deployed with google-cloud platform 
+## Google-Cloud Deployment 
