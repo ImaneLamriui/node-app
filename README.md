@@ -1,2 +1,4 @@
 # node-app
-## Google-Cloud Deployment 
+## Using Google-Cloud CLI in Cloud-Shell 
+### Executing:
+###### gcloud app deploy 
